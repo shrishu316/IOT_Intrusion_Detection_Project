@@ -43,6 +43,9 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 ### ROC Curve (Random Forest):
 ![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
 
+![Price Distribution for Selected Brands](https://github.com/user-attachments/assets/1dc775c6-d02b-4776-8a06-0c3d44873a9f)
+
+
 ---
 
 ## Machine Learning Models
