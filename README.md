@@ -24,6 +24,13 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 - **Feature scaling** using `StandardScaler` for normalization.
 
 ---
+## Machine Learning Models
+
+1. **Random Forest Classifier** – Best performing model, balances accuracy and efficiency.
+2. **SVM** – Competitive but computationally expensive.
+3. **Logistic Regression** – Used as a baseline.
+
+---
 
 ## Key Figures
 
@@ -42,14 +49,6 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 ### ROC Curve (Random Forest):
 ![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
-
----
-
-## Machine Learning Models
-
-1. **Random Forest Classifier** – Best performing model, balances accuracy and efficiency.
-2. **SVM** – Competitive but computationally expensive.
-3. **Logistic Regression** – Used as a baseline.
 
 ---
 
