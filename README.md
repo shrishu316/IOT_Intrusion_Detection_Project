@@ -1,26 +1,6 @@
 # IoT Intrusion Detection Using Machine Learning
 
 ---
-
-## Key Figures
-
-### Distribution of Filtered Labels
-![Distribution_of_Filtered_Labels](https://github.com/user-attachments/assets/637eae6e-7207-4c66-b272-7a052baf3664)
-
-### Feature Importance for Random Forest
-![Feature Importance for Random Forest](https://github.com/user-attachments/assets/c01cfa94-840d-43a8-a5d8-ed46e617d353)
-
-### Confusion Matrix (Random Forest):
-![Confusion Matrix](https://github.com/user-attachments/assets/4f1fd862-453a-4aae-bb91-09d52cfc251e)
-
-### Receiver Operating Characteristic (ROC) Curve for Multiclass
-![Receiver Operating Characteristic (ROC) Curve for Multiclass](https://github.com/user-attachments/assets/9164904f-ced2-4e87-a7ce-ef97652d1914)
-
-### ROC Curve (Random Forest):
-![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
-
----
-
 ## Overview
 
 The rapid expansion of **IoT devices** has increased the risk of cyberattacks. This project builds a **machine learning-based Intrusion Detection System (IDS)** to classify IoT network traffic into categories such as **DDoS**, **DoS**, **malware**, and **benign traffic**. Using models like **Random Forest**, **SVM**, and **Logistic Regression**, we detect abnormal traffic patterns to safeguard IoT networks.
@@ -42,6 +22,25 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 - **Missing values** filled using forward fill (`ffill`).
 - **Feature scaling** using `StandardScaler` for normalization.
+
+---
+
+## Key Figures
+
+### Distribution of Filtered Labels
+![Distribution_of_Filtered_Labels](https://github.com/user-attachments/assets/637eae6e-7207-4c66-b272-7a052baf3664)
+
+### Feature Importance for Random Forest
+![Feature Importance for Random Forest](https://github.com/user-attachments/assets/c01cfa94-840d-43a8-a5d8-ed46e617d353)
+
+### Confusion Matrix (Random Forest):
+![Confusion Matrix](https://github.com/user-attachments/assets/4f1fd862-453a-4aae-bb91-09d52cfc251e)
+
+### Receiver Operating Characteristic (ROC) Curve for Multiclass
+![Receiver Operating Characteristic (ROC) Curve for Multiclass](https://github.com/user-attachments/assets/9164904f-ced2-4e87-a7ce-ef97652d1914)
+
+### ROC Curve (Random Forest):
+![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
 
 ---
 
