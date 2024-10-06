@@ -29,7 +29,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 ### Distribution of Filtered Labels
 ![Distribution_of_Filtered_Labels](https://github.com/user-attachments/assets/637eae6e-7207-4c66-b272-7a052baf3664)
-Fig.1: The bar chart illustrates the frequency of various network traffic labels, with DDoS-ICMP_Flood being the most prevalent attack type, followed by DDoS-PSHACK_Flood and DDoS-RSTFINFlood. Less frequent events include reconnaissance activities (e.g., Recon-HostDiscovery) and SQL injection attempts, indicating a diverse range of attack types in the dataset.
+*Fig.1:* The bar chart illustrates the frequency of various network traffic labels, with DDoS-ICMP_Flood being the most prevalent attack type, followed by DDoS-PSHACK_Flood and DDoS-RSTFINFlood. Less frequent events include reconnaissance activities (e.g., Recon-HostDiscovery) and SQL injection attempts, indicating a diverse range of attack types in the dataset.
 
 ### Feature Importance for Random Forest
 ![Feature Importance for Random Forest](https://github.com/user-attachments/assets/c01cfa94-840d-43a8-a5d8-ed46e617d353)
