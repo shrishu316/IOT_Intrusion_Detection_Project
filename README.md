@@ -40,7 +40,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 ### Feature Importance for Random Forest
 ![Feature Importance for Random Forest](https://github.com/user-attachments/assets/c01cfa94-840d-43a8-a5d8-ed46e617d353)
-*Fig.2:* The feature importance from a Random Forest model. Key features like `syn_flag_number`, `ack_count`, and `fin_flag_number` have the highest influence, while others contribute less. This highlights the most critical variables in the model's predictions.
+*Fig.2:* Key features like `syn_flag_number`, `ack_count`, and `fin_flag_number` have the highest influence, while others contribute less. This highlights the most critical variables in the model's predictions.
 
 ### Confusion Matrix (Random Forest):
 ![Confusion Matrix](https://github.com/user-attachments/assets/4f1fd862-453a-4aae-bb91-09d52cfc251e)
