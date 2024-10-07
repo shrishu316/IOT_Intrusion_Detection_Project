@@ -40,15 +40,19 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 ### Feature Importance for Random Forest
 ![Feature Importance for Random Forest](https://github.com/user-attachments/assets/c01cfa94-840d-43a8-a5d8-ed46e617d353)
+*Fig.2:* The feature importance from a Random Forest model. Key features like `syn_flag_number`, `ack_count`, and `fin_flag_number` have the highest influence, while others contribute less. This highlights the most critical variables in the model's predictions.
 
 ### Confusion Matrix (Random Forest):
 ![Confusion Matrix](https://github.com/user-attachments/assets/4f1fd862-453a-4aae-bb91-09d52cfc251e)
+*Fig.3:* The confusion matrix shows the performance of a classification model across various attack types and benign traffic. High values along the diagonal, such as for `DDoS-ICMP_Flood` and `DDoS-RSTFINFlood`, indicate correct classifications, while non-diagonal values represent misclassifications. This matrix helps evaluate model accuracy and identify where prediction errors occur.
 
 ### Receiver Operating Characteristic (ROC) Curve for Multiclass
 ![Receiver Operating Characteristic (ROC) Curve for Multiclass](https://github.com/user-attachments/assets/9164904f-ced2-4e87-a7ce-ef97652d1914)
+*Fig.4:* The ROC curve shows the performance of a multiclass classification model. Most classes, like `DDoS-RSTFINFlood` and `DoS-TCP_Flood`, achieve perfect AUC scores (area = 1.00), indicating excellent performance. However, some classes, like `Backdoor_Malware` and `SqlInjection`, have lower AUC scores, suggesting the model struggles more with these categories. This plot helps visualize the true positive rate against the false positive rate across different classes.
 
 ### ROC Curve (Random Forest):
 ![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
+*Fig.3:* The figure presents the **ROC curve** for the classifier, showing an **AUC of 1.00**, indicating perfect discrimination between classes. The model achieves a high **true positive rate** with minimal **false positives**, reflecting ideal performance. The diagonal line represents random chance (AUC = 0.5) for comparison.
 
 ---
 
