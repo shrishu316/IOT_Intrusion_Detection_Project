@@ -52,7 +52,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/madhavmalhotr
 
 ### ROC Curve (Random Forest):
 ![ROC Curve](https://github.com/user-attachments/assets/9d80bef9-ed72-4bc4-82bc-8946574997ce)
-*Fig.3:* The figure presents the **ROC curve** for the classifier, showing an **AUC of 1.00**, indicating perfect discrimination between classes. The model achieves a high **true positive rate** with minimal **false positives**, reflecting ideal performance. The diagonal line represents random chance (AUC = 0.5) for comparison.
+*Fig.5:* The figure presents the **ROC curve** for the classifier, showing an **AUC of 1.00**, indicating perfect discrimination between classes. The model achieves a high **true positive rate** with minimal **false positives**, reflecting ideal performance. The diagonal line represents random chance (AUC = 0.5) for comparison.
 
 ---
 
